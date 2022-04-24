@@ -13,8 +13,7 @@ final class PlantIdentifierDataStore: PlantRepositoryProtocol {
     func postPlantIdentify(image: UIImage, onCompletion: @escaping (Response) -> ()) {
         let languageCode = "en"
         
-        let endpoint = URL(string: "\(Constants.PlantNetAPI.baseURL)/v2/\(Constants.PlantNetAPI.identify)/all?api-key=\(Constants.PlantNetAPI.apiKey)&lang=\(languageCode)")!
-       
+        let endpoint = URL(string: "\(Constants.PlantNetAPI.baseURL)/v2/\(Constants.PlantNetAPI.identify)/all?api-key=\(Constants.PlantNetAPI.apiKey)&lang=\(languageCode)") ?? URL(string: "https://www.google.com")!
         
         var request = URLRequest(url: endpoint)
         request = PlantIdentifierDataStore.imageUploadRequest(endPointURL: endpoint, method: "POST", image: image)
