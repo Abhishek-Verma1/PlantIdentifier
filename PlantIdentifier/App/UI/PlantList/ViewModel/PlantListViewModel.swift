@@ -51,7 +51,8 @@ final class PlantListViewModel: PlantListViewModelProtocol {
     
     func viewDidLoad() {
         loader.value = true
-        useCase.postPlantIdentify(image:  self.selectedImage , onSuccess: onSuccess, onFailure: onFailure)
+        #warning("Optimization required for support multiple images.")
+        useCase.postPlantIdentify(image: self.selectedImage , onSuccess: onSuccess, onFailure: onFailure)
     }
     
     func didTapOnRow(at index: Int) {
