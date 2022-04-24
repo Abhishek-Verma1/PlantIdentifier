@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  PlantIdentifier
+
+  Created by Clean Slate on 4/24/22.
+  
+*/
+
+"Photo Identification" = "Foto-Identifikation";
+"Camera Permission is not provided. Please enable it from settings." = "Eine Kameraerlaubnis wird nicht erteilt. Bitte aktivieren Sie es in den Einstellungen.";
+"Camera Or Gallery Permission is not provided. Please enable it from settings."  = "Eine Kamera- oder Galerieerlaubnis wird nicht erteilt. Bitte aktivieren Sie es in den Einstellungen.";
+"Gallery Permission is not provided. Please enable it from settings."  = "Galerie-Erlaubnis ist nicht vorgesehen. Bitte aktivieren Sie es in den Einstellungen.";
+"Results" = "Ergebnisse";
+"We didn’t find your plant?"  = "Wir haben Ihre Anlage nicht gefunden?";
+"Retake the photo or send us the picutre so that we can help you find it." = "Nehmen Sie das Foto erneut auf oder senden Sie uns das Bild, damit wir Ihnen bei der Suche helfen können.";
+"Retake Photo" = "Foto wiederholen";

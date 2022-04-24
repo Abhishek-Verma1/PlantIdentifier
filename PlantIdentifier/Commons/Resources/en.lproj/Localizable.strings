@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  PlantIdentifier
+
+  Created by Clean Slate on 4/24/22.
+  
+*/
+
+"Photo Identification" = "Photo Identification";
+"Camera Permission is not provided. Please enable it from settings." = "Camera Permission is not provided. Please enable it from settings.";
+"Camera Or Gallery Permission is not provided. Please enable it from settings."  = "Camera Or Gallery Permission is not provided. Please enable it from settings.";
+"Gallery Permission is not provided. Please enable it from settings."  = "Gallery Permission is not provided. Please enable it from settings.";
+"Settings" = "Settings";
+"Results" = "Results";
+"We didn’t find your plant?"  = "We didn’t find your plant?";
+"Retake the photo or send us the picture so that we can help you find it." = "Retake the photo or send us the picture so that we can help you find it.";
+"Retake Photo" = "Retake Photo";
